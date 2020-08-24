@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.gis'
+    'django.contrib.gis',
+    'nearbyshops'
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'shops',
         'USER':'shopadmin',
-        'PASSWORD':'*',
+        'PASSWORD':'Seven#07',
         'HOST':'localhost',
         'PORT':'5433'
     }
